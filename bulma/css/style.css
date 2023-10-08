@@ -1,0 +1,31 @@
+/* Custom styles for the navbar */
+.navbar {
+    background-color: rgb(54, 49, 84); /* Set your desired background color here */
+    color: white; /* Set the text color */
+}
+
+/* Example: Change the color of the navbar links on hover */
+.navbar-item:hover {
+    color: lightgray;
+}
+
+body {
+    background-color: #fee;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Add more custom styles as needed */
+
+.footer{
+    background-color: rgb(54, 49, 84);
+    color: white;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    padding: 20px;
+}
+
+.main-conent{
+    flex-grow: 1;
+}

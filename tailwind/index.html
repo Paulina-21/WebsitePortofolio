@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paula - Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="custom-nav py-4 fixed top-0 w-full z-10">
+            <div class="container mx-auto flex justify-between items-center">
+                <a class="text-white text-lg font-semibold" href="#">Paula-Catalina Curca</a>
+                <button class="lg:hidden text-white">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+                <div class="hidden lg:flex">
+                    <ul class="flex space-x-4">
+                        <li class="nav-item">
+                            <a class="text-white" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="py-12 mt-10">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-semibold mb-4">About Me</h1>
+            <div class="flex flex-col lg:flex-row">
+                <div class="lg:w-9/12 lg:pr-6">
+                    <h4 class="text-lg font-semibold">Paula-Catalina Curca:</h4>
+                    <p class="text-gray-600 mt-2">Software Developer</p>
+                    <p class="mt-4 mb-10">Paula-Catalina Curca is a software developer based in Roskilde, Denmark. She is studying Computer Science, but she has 1.5+ years experience from part-time jobs and an internship.</p>
+                    <a href="images/Paula_CV.pdf" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-lg">See my Resume (CV)</a>
+                </div>
+                <div class="lg:w-3/12 mt-6 lg:mt-0">
+                    <img src="images/paula.jpg" alt="Paula" style="height: 250px; width: 250px;" class="about-img object-cover mx-auto lg:mx-0">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-12">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-semibold mb-4">Portfolio</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card  bg-white">
+                    <img src="images/dressMeUp.png" class="card-img-top" alt="DressMeUp">
+                    <div class="card-body mt-4">
+                        <h5 class="card-title">DressMeUp</h5>
+                        <p class="card-text">DressMeUp is an app which helps you generate outfits with your own clothes so you can stay trendy!</p>
+                        <a href="https://red-rock-096827603.3.azurestaticapps.net/" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="card bg-white">
+                    <div class="buy-with-plast">
+                        <img src="images/buyFoodWPlastic.png" class="card-img-top" alt="DressMeUp">
+                    </div>
+                    <div class="card-body bg-white">                        
+                        <h5 class="card-title">Buy Food With Plastic</h5>
+                        <p class="card-text">Buy Food with Plastic was a project done together with my team for the hackathon: Hack the Climate</p>
+                        <a href="https://devpost.com/software/team-platypus?ref_content=my-projects-tab&ref_feature=my_projects" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="card bg-white">
+                    <div class="lokalt">
+                        <img src="images/LaanLokalt.png" class="card-img-top img-fluid" alt="DressMeUp">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Lån Lokalt</h5>
+                        <p class="card-text">Lån Lokalt, an app for neighbors to share food or borrow/rent tools, creating a strong community</p>
+                        <a href="https://calm-bush-039c10303.3.azurestaticapps.net/home" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <!-- Add more projects here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-12">
+        <div class="container mx-auto">
+            <div class="flex flex-col lg:flex-row items-center justify-between">
+                <div class="lg:w-5/12">
+                    <h1 class="text-3xl font-semibold">Contact Me:</h1>
+                </div>
+                <div class="lg:w-7/12 mt-6 lg:mt-0 text-center lg:text-right">
+                    <a href="https://www.linkedin.com/in/paula0catalina0curca0/" target="_blank" class="social-icon text-indigo-600 hover:text-indigo-800"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:catalina.paulina21@gmail.com" class="social-icon text-indigo-600 hover:text-indigo-800"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/cata2_lina/" target="_blank" class="social-icon text-indigo-600 hover:text-indigo-800"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/catalina.curca" target="_blank" class="social-icon text-indigo-600 hover:text-indigo-800"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="custom-nav py-4 text-center text-white">
+        <div class="container mx-auto">
+            &copy; 2023 Paula Catalina - Web Developer
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

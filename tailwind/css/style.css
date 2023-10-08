@@ -1,0 +1,111 @@
+/* Add your custom CSS styles here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/* Example: Change background color of header */
+header {
+    @apply bg-blue-500 text-white;
+}
+
+/* Example: Add margin to the portfolio cards */
+.card {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 500px; 
+}
+
+/* Example: Style the footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+/* Customize the jumbotron background color */
+.custom-nav {
+    background-color: rgb(54, 49, 84);
+    color: white; /* Change text color to ensure readability */
+    padding: .5rem 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+body {
+    background-color: #fee;
+    padding-top: 40px;
+} 
+
+
+/*Make the footer fixed at the bottom of the page*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(54, 49, 84);
+    color: white;
+    text-align: center;
+}
+
+/* Style the social media icons */
+.social-icon {
+    font-size: 40px;
+    margin: 0 10px;
+    color: #663dd6; /* Change the color to your desired color */
+}
+/* Add margin to sections above the footer */
+#contact,
+#portfolio {
+    margin-bottom: 80px; /* Adjust the value as needed */
+}
+
+.card img {
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: cover; /* Crop the image to fit the card */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.dress-me{
+    flex-grow: 1;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.buy-with-plast {
+    flex-grow: 1;
+    padding-top: 85px;
+    padding-bottom: 70px;
+}
+
+.lokalt {
+    flex-grow: 1;
+    padding-top: 5px;
+}
+
+.card-body {
+    flex-shrink: 0;
+}
+
+.my-button {
+    /* background-color: #4720a3;
+    color: white; */
+   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded-lg text-lg
+}
+
+i{
+    padding-right: 50px;
+}
